@@ -109,9 +109,6 @@ export default function TasksContainer({
                 onClick={() => removeTask(task.id)}
               />
 
-              <Link href={`/edit/${task.id}`} passHref>
-                <EditIcon sx={{ cursor: "pointer", fontSize: "40px" }} />
-              </Link>
             </Box>
           </Card>
         ))}
